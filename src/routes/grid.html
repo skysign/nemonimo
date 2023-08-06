@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>grid generator</p>
+
+<form action="http://localhost:2000/api/grid" method="post">
+<table>
+	<tr>
+		<td>
+            R : <input type="text" name="R" value="3"><br>
+            C : <input type="text" name="C" value="3"><br>
+            cellWidth : <input type="text" name="cellWidth" value="70"><br>
+            cellHeight : <input type="text" name="cellHeight" value="70"><br>
+            lineWidth : <input type="text" name="lineWidth" value="3"><br>
+            lineColor : <input type="text" name="lineColor" value="black"><br>
+            lineType : <select name="lineType" required>
+                <option value="line">line</option>
+                <option value="dotline">dotline</option>
+              </select><br>
+        </td>
+        <td>
+        	<p>test</p>
+        </td>
+	</tr>
+</table>
+    <br>
+    <input type="submit" value="generate">
+</form>
+
+</body>
+</html>
